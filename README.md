@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/github/package-json/v/carsaver/vue-lodash-filters.svg?style=flat-square)](https://github.com/carsaver/vue-lodash-filters/releases)
 [![npm](https://img.shields.io/github/license/carsaver/vue-lodash-filters.svg?style=flat-square)](https://github.com/carsaver/vue-lodash-filters/blob/master/LICENSE)
 [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/vue-lodash-filters/badge)](https://www.jsdelivr.com/package/npm/vue-lodash-filters)
-[![travisci](https://img.shields.io/travis/carsaver/vue-lodash-filters/master.svg?style=flat-square)](https://travis-ci.org/carsaver/vue-lodash-filters)
+[![travisci](https://img.shields.io/travis/com/CarSaver/vue-lodash-filters.svg?style=flat-square)](https://travis-ci.com/CarSaver/vue-lodash-filters)
 
 [Lodash](https://www.lodash.com) functions available as Vue.js 2.x filters
 
