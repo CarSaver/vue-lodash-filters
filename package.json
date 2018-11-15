@@ -1,6 +1,6 @@
 {
   "name": "vue-lodash-filters",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Lodash functions as Vue.js filters",
   "main": "dist/vue-lodash-filters.js",
   "module": "src/index.js",
