@@ -1,7 +1,7 @@
 import { mount, createLocalVue } from '@vue/test-utils'
 import App from './App.vue'
 
-import VueLodashFilters from '../../src/index'
+import VueLodashFilters from '../../../src/index'
 
 const localVue = createLocalVue()
 localVue.use(VueLodashFilters)
@@ -17,6 +17,10 @@ describe('App', function () {
     })
 
     it('capitilized string', function () {
+        expect(wrapper.find('div').text()).toBe('Lower case string')
+    })
+
+    it('upperFirst string', function () {
         expect(wrapper.find('div').text()).toBe('Lower case string')
     })
 })

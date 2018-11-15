@@ -5,6 +5,10 @@ const VueLodashFilters = {
         Vue.filter('capitalize', function (text) {
             return _.capitalize(text)
         })
+
+        Vue.filter('upperFirst', function (text) {
+            return _.upperFirst(text)
+        })
     }
 }
 

@@ -37,7 +37,8 @@ To use the lodash capatilize function
 
 ## Available Lodash functions
 
-- [Capitalize](https://lodash.com/docs/4.17.11#capitalize)
+- [_.capitalize](https://lodash.com/docs/4.17.11#capitalize)
+- [_.upperFirst](https://lodash.com/docs/4.17.11#upperFirst)
 
 ## Authors
 
