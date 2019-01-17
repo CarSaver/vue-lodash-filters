@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - 'lts/*'
+- lts/*
+before_deploy: "npm run build"
+deploy:
+  provider: npm
+  email: wablam@gmail.com
+  api_key:
+    secure: gcdEXOZI0fGtob8bSAIXhrhv9VeBxjJx56ILe7oORP8EQEySJTEbhxCtSCPnMaA0KVa7qR47KwCQtaBwGvzRGVjboL8g7DbXERjmzHg4MAkwdnbv8t4BwNLWClItZ1rasEDDESHbPUOL6WpeBIg7xASCubB1LWvlDhsVoZfrCXLP7q2nCij1ayHup1O//0C3AuVBozqWe1569ATIz/5vVI8Lv/5QA3XC9PMamuqsih3iTTFHuAdNkSKqaoL62Gs61sfhwJNMsE7JTxfEqYcMG3sH3CIDmxqCom7AWAET5Ntfu+NZ5h32LngOUbM3IjC6tCiA8X5hAU4SXHCH4JehpdqZElt5tK2yC0E+icrt+Q20+FxYtP0THuVei+9YwkHB/N/OlGEIWGv+GwKPajwLunweuSIhCGkXR/2op2ytAkTQi/7qLnvsNRT3633Mok//t+nubMF3Knc+EwGGrD2sW0BYIg+3XPqO/eETovR5zDBBU7+v75PM7e1edDUjbH4dyjpZyEAKei6HM/fFrV6YQ1R9DahwFxUdxhGlEUOQuEb5v30cAntDkO8DyUIhRz5es0NFv5YV8nSzvDXfBfM2IN4sZVUG50BWXnzQVHaHjE3X/Tbf+5DatPDeUC3CSjKPZH6ic+VKiJUlOLzqAqXGUd5iYvSX+BQ5gmTFihSRxuI=
+  on:
+    tags: true
+    repo: CarSaver/vue-lodash-filters
