@@ -44,6 +44,7 @@ To use the lodash capatilize function
 ## Authors
 
 - **John Kelly** - [postalservice14](https://github.com/postalservice14)
+- **Daniel Hopper** - [hopperd](https://github.com/hopperd)
 
 ## License
 
