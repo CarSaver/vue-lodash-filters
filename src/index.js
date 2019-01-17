@@ -13,6 +13,10 @@ const VueLodashFilters = {
         Vue.filter('startCase', function (text) {
             return _.startCase(text)
         });
+
+        Vue.filter('lowerCase', function (text) {
+            return _.lowerCase(text)
+        });
     }
 };
 
