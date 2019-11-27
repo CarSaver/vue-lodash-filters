@@ -41,6 +41,7 @@ To use the lodash capatilize function
 - [_.upperFirst](https://lodash.com/docs/4.17.11#upperFirst)
 - [_.lowerCase](https://lodash.com/docs/4.17.11#lowerCase)
 - [_.startCase](https://lodash.com/docs/4.17.11#startCase)
+- [_.get](https://lodash.com/docs/4.17.11#get)
 
 ## Authors
 

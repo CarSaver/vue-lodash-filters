@@ -17,6 +17,10 @@ const VueLodashFilters = {
         Vue.filter('lowerCase', function (text) {
             return _.lowerCase(text)
         });
+
+        Vue.filter('get', function (text, path, defaultPath) {
+            return _.get(text, path, defaultPath)
+        });
     }
 };
 
